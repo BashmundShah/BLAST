@@ -1,0 +1,8 @@
+>p 1
+gctacgtagctagtcgtcag
+
+>p2
+gtcagttcgatgctagtc
+
+>p3
+gtcagtcgatcgtacgtgct
