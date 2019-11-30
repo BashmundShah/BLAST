@@ -1,6 +1,6 @@
 >p 1
-gctacgtagctagtcgtcag
-actgatcgtag
+hello
+world
 >p2
 gtcagttcgatgctagtc
 >p3
