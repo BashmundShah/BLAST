@@ -1,8 +1,7 @@
 >p 1
 gctacgtagctagtcgtcag
-
+actgatcgtag
 >p2
 gtcagttcgatgctagtc
-
 >p3
 gtcagtcgatcgtacgtgct
