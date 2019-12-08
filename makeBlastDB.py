@@ -1,4 +1,26 @@
-id=1
+def file_len(fname):
+    with open(fname) as f:
+        for i, l in enumerate(f):
+            pass
+    return i + 1
+id=file_len("Database.csv")
+def readFile(filename,k):
+    queryFile = open(filename)
+    line = queryFile.readline()
+    name = ''
+    sequence = ''
+    i=1
+    while line:
+        if (line[0] == '>'):
+            makeSubsets(name, sequence, k)
+            name = line[1:-1]
+            print("Sequence ",i," done...")
+            i+=1
+            sequence = ''
+        else:
+            sequence += line
+        line = queryFile.readline()
+    makeSubsets(name, sequence, k)
 def makeSubsets(seqName,sequence,k):
     global id
     sequence=sequence.replace('\n','')
@@ -11,19 +33,7 @@ def makeSubsets(seqName,sequence,k):
     database.close()
 
 if __name__ == '__main__':
-    k=3
+    k=int(input("Enter the size of K-mer:"))
     filename='TEST Seq.txt'
-    queryFile = open(filename)
-    line=queryFile.readline()
-    name=''
-    sequence=''
-    while line:
-        if(line[0]=='>'):
-            makeSubsets(name,sequence,k)
-            name=line[1:-1]
-            sequence=''
-        else:
-            sequence+=line
-        line=queryFile.readline()
-    makeSubsets(name, sequence, k)
+    readFile(filename,k)
     print("Database updated successfully")
