@@ -1,0 +1,5 @@
+S.no,QuerySeqID,#ofMatchingKmers,startPosX,endPosX,TotalLenX,DatabaseSeqID,startPosY,EndPosY,TotalLenY
+1,qseq1,3,1,7,7,protein 1,1,7,7
+2,qseq1,1,15,19,5,protein 1,577,581,5
+3,qseq1,3,8,14,7,protein 2,1,7,7
+4,qseq2,1,5,9,5,protein 3,85,89,5

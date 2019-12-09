@@ -1,0 +1,20 @@
+S.no,QuerySeqID,#ofMatchingKmers,startPosX,endPosX,TotalLenX,DatabaseSeqID,startPosY,EndPosY,TotalLenY
+1,qseq1,5,1,7,7,protein 1,1,7,7
+2,qseq1,1,5,7,3,protein 1,74,76,3
+3,qseq1,1,5,7,3,protein 1,91,93,3
+4,qseq1,2,15,18,4,protein 1,577,580,4
+5,qseq1,1,17,19,3,protein 1,72,74,3
+6,qseq1,1,17,19,3,protein 1,579,581,3
+7,qseq1,1,7,9,3,protein 2,247,249,3
+8,qseq1,4,8,13,6,protein 2,1,6,6
+9,qseq1,1,11,13,3,protein 2,71,73,3
+10,qseq1,1,12,14,3,protein 2,5,7,3
+11,qseq1,1,9,11,3,protein 3,151,153,3
+12,qseq2,1,9,11,3,protein 1,19,21,3
+13,qseq2,1,10,12,3,protein 1,279,281,3
+14,qseq2,1,11,13,3,protein 2,80,82,3
+15,qseq2,3,5,9,5,protein 3,85,89,5
+16,qseq2,2,10,13,4,protein 3,163,166,4
+17,qseq2,2,1,4,4,protein 4,102,105,4
+18,qseq2,2,3,6,4,protein 4,596,599,4
+19,qseq2,1,5,7,3,protein 4,298,300,3
