@@ -46,6 +46,6 @@ def makeSubsets(seqName,sequence,k):
     database.close()
 
 if __name__ == '__main__':
-    filename='TEST Seq.txt'
+    filename= 'inputSequenceforDB.txt'
     readFile(filename,k)
     print("Database updated successfully")

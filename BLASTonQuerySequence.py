@@ -72,7 +72,7 @@ def createQueryKmers(name, sequence, k):
 
 
 if __name__ == '__main__':
-    k = 4
+    k = 5
     queryFile = "querySequence.txt"
     names = createQueryDF(queryFile, k)
     for chunk in pd.read_csv("Database/Database_" + str(k) + ".csv", chunksize=5000, index_col=0):
